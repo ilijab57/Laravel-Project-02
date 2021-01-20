@@ -1,0 +1,155 @@
+.adminLoginPage {
+    height: 100vh;
+    background-image: url(/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10vh ;
+    background-size: 300px;
+}
+
+.form_container {
+    height: 100%;
+
+}
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10vh;
+}
+#loginForm form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 50px 40px 100px 40px;
+}
+#loginForm .btn {
+    background-color: #5e5ef0;
+    width: 40%;
+}
+
+#form_title {
+    background-color: #5e5ef0;
+    color: white;
+    text-align: center;
+    width: 40%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+#admin_navbar {
+    background-color: #515763;
+}
+#admin_navbar a {
+    color: white;
+}
+#admin_navbar a:hover {
+    color: black;
+}
+#logoutDropdown {
+    background-color: #515763;
+}
+#logoutDropdown a:hover {
+    background-color: inherit;
+}
+
+
+
+
+.sidebar {
+    height: 100vh;
+    background-color: #515763;
+}
+.sidebar i {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sidebar a {
+    color: white;
+}
+.sidebar .fa-home {
+    color: #418bca;
+}
+.sidebar .fa-users {
+    color: #6cc66c;
+}
+.sidebar .fa-project-diagram {
+    color: #ef6f6c;
+}
+.sidebar .fa-book-open {
+    color: #f89a14;
+}
+
+.category_img_table {
+    width: 50px;
+}
+.actions i {
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+.actions .view {
+    color: #38c172;
+}
+.actions .edit {
+    color: #ffed4a;
+}
+.actions .delete {
+    color: #e3342f;
+}
+#delete_form {
+    display: inline-block;
+}
+#delete_form .btn {
+    padding-top: 0;
+}
+
+
+.section_title {
+    color: #afb6b9;
+    padding: 30px;
+    border-bottom: 2px solid #afb6b9;
+}
+#dashboard_cards {
+    margin-top: 50px;
+    padding: 2% 5%;
+}
+#dashboard_cards .card-title {
+    font-size: xx-large;
+}
+
+
+#users_table thead {
+    background-color: #6cc66c;
+    color: white;
+}
+#categories_table thead {
+    background-color: #ef6f6c;
+    height: 80px;
+}
+#lessons_table thead {
+    background-color: #f89a14 ;
+}
+
+.edit_create_form {
+    max-width: 500px ;
+    margin-top: 50px;
+}
+
+@media (max-width: 767.98px) { 
+    .sidebar {
+        max-height: 30vh;
+    }
+    .content {
+        padding-right: 16px;
+    }
+ }
+
+body, #admin_navbar, .content {
+    max-width: 100%;
+    padding-right: 0;
+}
+
+

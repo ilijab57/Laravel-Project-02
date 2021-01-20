@@ -1,0 +1,246 @@
+
+.navbar {
+    border-bottom: 3px solid #f4f5f7;
+    background-color: white;
+}
+
+.navbar-brand {
+    margin-left: 2%;
+}
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 7%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: initial;
+    margin-left: 10px;
+}
+
+#subscribeBtn {
+    background-color: #5e5ef0;
+}
+#subscribeBtn:hover {
+    color: #5e5ef0;
+    background-color: white;
+    border: 1px solid #5e5ef0;
+    transition: 1s;
+}
+
+.navbar-nav li:last-child {
+    margin-left: 5%;
+}
+
+
+
+#registerModal .close {
+    margin-left: 16px;
+    color: white;
+}
+#modalLabel {
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+.modal-header {
+    background-color: #5e5ef0;
+    margin-bottom: 50px;
+}
+#registerModal #email {
+    width: 80%;
+    border-width: 0 0 1px 0;
+    height: 40px;
+}
+#registerModal #email:focus {
+    border-bottom: 2px solid #5e5ef0;
+}
+#registerModal #email:focus::placeholder {
+    color: #5e5ef0;
+    font-size: small;
+    vertical-align: bottom;
+}
+#registerModal select {
+    width: 80%;
+    margin-bottom: 120px;
+    border-width: 0 0 1px 0;
+}
+#modal_form_btn {
+    width: 80%;
+    background-color: #5e5ef0;
+    height: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 20px;
+}
+#registerModal select {
+    color: #8b8c91;
+}
+
+
+.content {
+    padding: 0 8% 5% 8%;
+    background-color: #f6f7fc;
+}
+
+#subscribeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e5ef0;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding: 10%;
+    border-radius: 10px;
+}
+#subscribeSection h2 {
+    font-weight: bold;
+}
+
+
+#subscribe_form_email {
+    background-color: #4746ce;
+    border: none;
+    height: 60px;
+    width: 100%;
+    color: white;
+    align-self: center;
+}
+#subscribe_form .form-control::placeholder {
+    color: #e8edff;
+}
+#subscribe_form .btn {
+    color: black;
+    font-weight: bolder;
+    height: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+}
+#subscribe_form {
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#subscribe_form .input-group {
+    width: 100%;
+}
+
+
+
+.categories_cards {
+    padding: 0 5%;
+}
+.categories_cards img {
+    width: 33%;
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.categories_cards .card-footer {
+    background-color: unset;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80%;
+}
+.category_lessons_link:hover {
+    text-decoration: none;
+    color: initial;
+}
+.category_lessons_link {
+    color: rgb(160, 158, 158);
+}
+.categories_cards .card_height {
+    height: 490px;
+}
+
+
+
+.footer {
+    border-top: 3px solid #f4f5f7;
+    background-color: white;
+}
+.footer a {
+    margin: 15px;
+    text-decoration: none;
+    color: unset;
+    display: flex;
+    align-items: center;
+}
+.brainster_logo {
+    width: 60px;
+}
+.footer i {
+    color: #5e5ef0;
+    font-size: 2em;
+}
+
+
+
+.lesson {
+    border: 1px solid #f2f3f5;
+    background-color: white;
+    padding: 20px 30px 20px 15px;
+}
+.lesson_no {
+    color: #8f9fec;
+    font-weight: bolder;
+}
+.lesson_title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.lesson_date {
+    padding: 2px 4px;
+}
+
+.banner {
+    width: 100% !important;
+}
+.banner .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.banner i {
+    float: right;
+    color: #8f9fec;
+    position: relative;
+    top: 8px;
+}
+.banner .btn {
+    text-align: start;
+    font-weight: bold;
+    background-color: #f3f4f8;
+}
+.banner .btn span {
+    display: inline-block;
+    width: 90%;
+    background-color: #f8f9fb;
+    padding: 3px 0 3px 10px;
+}
+
+
+
+@media (min-width: 992px) { 
+    #subscribe_form .btn {
+        width: 20%;
+    }
+    #subscribe_form .input-group .input-group-prepend {
+        width: 80%;
+    }
+
+ }
+
+ @media (max-width: 991px) { 
+
+    #subscribe_form .input-group-prepend {
+        width: 100%;
+    }
+ }
